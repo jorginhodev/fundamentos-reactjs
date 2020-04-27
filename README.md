@@ -38,20 +38,14 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🚀 Sobre o desafio
 
-Nesse desafio, continuamos desenvolvendo a aplicação de gestão de transações, treinando o que você foi aprendido até agora no Node.js junto ao TypeScript, mas dessa vez incluindo o uso de banco de dados com o TypeORM e envio de arquivos com o Multer!
-
-Essa será uma aplicação que deve armazenar transações financeiras de entrada e saída e permitir o cadastro e a listagem dessas transações, além de permitir a criação de novos registros no banco de dados a partir do envio de um arquivo csv.
-
 Nesse desafio, continuamos desenvolvendo a aplicação de gestão de transações, a GoFinances. Agora iremos praticar o que foi aprendido até agora no React.js junto com TypeScript, utilizando rotas e envio de arquivos por formulário.
 
 A aplicação irá se conectar ao backend do Desafio 06, e exibir as transações criadas e permitir a importação de um arquivo CSV para gerar novos registros no banco de dados.
 
 
-### Funcionalidades da aplicação
+## 🚀 Funcionalidades da aplicação
 
 - **`Listar as transações da sua API`**: Sua página `Dashboard` deve ser capaz de exibir uma listagem através de uma tabela, com o campo `title`, `value`, `type` e `category` de todas as transações que estão cadastradas na sua API.
-
-**Dica**: Você pode utilizar a função [Intl](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat) para formatar os valores. Dentro da pasta `utils` no template você encontrará um código para te ajudar.
 
 - **`Exibir o balance da sua API`**: Sua página `Dashboard`, você deve exibir o balance que é retornado do seu backend, contendo o total geral, junto ao total de entradas e saídas.
 
